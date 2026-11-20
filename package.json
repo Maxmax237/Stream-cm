@@ -1,0 +1,14 @@
+{
+  "name": "otaku-legal-cm",
+  "version": "1.0.0",
+  "description": "Plateforme de streaming par abonnement (animes, séries, films, webtoons) - contenus sous licence",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node --no-warnings server/index.js",
+    "dev": "node --no-warnings --watch server/index.js",
+    "test": "node --no-warnings scripts/smoke.js"
+  },
+  "engines": { "node": ">=22.5" },
+  "license": "UNLICENSED",
+  "private": true
+}
